@@ -57,6 +57,12 @@ div i {
     background-color: #24D5DB;
     color: #ffffff;
 }
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-secondary);
+}
+.tooltip {
+    color: #000;
+}
 footer {
     background-color: #24D5DB;
     height: 80px;
