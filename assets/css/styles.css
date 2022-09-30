@@ -71,3 +71,21 @@ h4 {
     font-weight: 300;
     font-size: 25px;
 }
+a:link {
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #CFD7D7;
+    background-color: transparent;
+  }
+  a:active {
+    color: #CFD7D7;
+    background-color: transparent;
+  }
