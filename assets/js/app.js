@@ -19,6 +19,21 @@ var mensajeenviado = $("#mensajeenviado");
             alert("El mensaje fue enviado correctamente");
     });
 
+$(".fa-plane").click(function (){
+    $(".parrafo").toggle();
+
+});
+
+$(".fa-mountain").click(function (){
+    $(".parrafo2").toggle();
+
+});
+
+$(".fa-route").click(function (){
+    $(".parrafo3").toggle();
+
+});
+
 var tooltipTriggerList =
 [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {

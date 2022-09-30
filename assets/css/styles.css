@@ -28,6 +28,7 @@ div i {
     background-color: #24D5DB;
     height: 34px;
     text-align: center;
+    color: #ffffff;
 }
 .card-img-top {
     width: 100%;
@@ -64,13 +65,14 @@ div i {
 }
 footer {
     background-color: #24D5DB;
-    height: 80px;
+    height: 90px;
     color: #ffffff;
 }
 h4 {
     font-weight: 300;
     font-size: 25px;
 }
+
 a:link {
     color: #ffffff;
     background-color: transparent;
