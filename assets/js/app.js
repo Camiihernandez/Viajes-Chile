@@ -12,6 +12,13 @@ $(document).ready(function(){
     });
 });
 
+var mensajeenviado = $("#mensajeenviado");
+
+    mensajeenviado.click(function (e){
+        e.preventDefault();
+            alert("El mensaje fue enviado correctamente");
+    });
+
 var tooltipTriggerList =
 [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
